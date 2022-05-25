@@ -142,5 +142,3 @@ The final result file is one dataframe with 1 row per combination of x and y wit
  If sexes are equal, the female estimates contain the combined-sexes estiamtes, so the proper labelling for females would be "females (or all sexes)"
  I did this on purpose to prevent making the output datafile even bigger than it already is.
  Also, the order of these columns is not fixed, so if you have many varying results (AE, ADE and ACE models) you may want to order them after the fact.
-
- Before you begin make sure to check the GLOBAL SCRIPT SETTINGS below and change them where necessary.
