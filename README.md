@@ -19,17 +19,17 @@ Working directory, this directory should also contain "BivariateTwinModelsResour
 
 ```datapath <- "DataWide.csv"```   
 Path to the dataset file, see below.  
-This file should have a columnd called 'zyg' to indicate the zygosity of the twin pair, according to the following:
-  1: MZM
-  2: DZM
-  3: MZF
-  4: DZF
-  5: DOS (Note the male twin in a DOS pair should always be twin1, the female twin should be twin2)
-The file should also adhere to the following naming scheme:
+This file should have a columnd called 'zyg' to indicate the zygosity of the twin pair, according to the following:  
+  1: MZM  
+  2: DZM  
+  3: MZF  
+  4: DZF  
+  5: DOS (Note the male twin in a DOS pair should always be twin1, the female twin should be twin2)  
+The file should also adhere to the following naming scheme:  
 ```[variable]twin[twin-number]```  
-For example:  x1twin1, x2twin1, x1twin2, x2twin2, y1twin1, y2twin1, y1twin2, y2twin2, etc.  
-Order of these columns is not important, column name is crucial
-If 'include_sibs' is TRUE the file should have columns
+For example:  x1twin1, x2twin1, x1twin2, x2twin2, y1twin1, y2twin1, y1twin2, y2twin2, etc.    
+Order of these columns is not important, column name is crucial  
+If 'include_sibs' is TRUE the file should have columns  
 ```[variable]sibm1 and [variable]sibf2```  
 for a brother and sister of every variable respectivelly.
 
