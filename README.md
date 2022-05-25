@@ -139,6 +139,6 @@ The final result file is one dataframe with 1 row per combination of x and y wit
    - Cf_bivar_significant_p: is path Cf_bivar significant?
    - Df_bivar_significant_p: is path Df_bivar significant?
    - Ef_bivar_significant_p: is path Ef_bivar significant?  
- If sexes are equal, the female estimates contain the combined-sexes estiamtes, so the proper labelling for females would be "females (or all sexes)"  
- I did this on purpose to prevent making the output datafile even bigger than it already is.  
- Also, the order of these columns is not fixed, so if you have many varying results (AE, ADE and ACE models) you may want to order them after the fact.
+If sexes are equal, the female estimates contain the combined-sexes estiamtes, so the proper labelling for females would be "females (or all sexes)"  
+I did this on purpose to prevent making the output datafile even bigger than it already is.  
+Also, the order of these columns is not fixed, so if you have many varying results (AE, ADE and ACE models) you may want to order them after the fact.
