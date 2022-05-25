@@ -1,5 +1,5 @@
 # AutomatedBivariateTwinModels
-Automate fitting of an arbitrary number of bivariate twin models using OpenMx  
+#### Automate fitting of an arbitrary number of bivariate twin models using OpenMx  
 This script is ment to make it easy to fit a bunch of bivariate models and get the important estimates without any interactive hassle. It is not ideal for finely detailed info/output/adaptations to single models, if that is the goal, extract the model specifications from the BivariateTwinModelsResources.R and the labels and stuff from AutomatedTwinModel.R and make another version... Then again if you want really fine control you may just want to make your own version.
 
 The main script is AutomatedTwinModel.R which relies heavily on the functions in the accompanying BivariateTwinModelsResources.R. This script was made by me (Matthijs D. van der Zee), based on script I got from a colleague, who in turn based it on scripts from other sources. So use at your own discretion. If you do use it please make sure you cite the original OpenMx publication(s).
